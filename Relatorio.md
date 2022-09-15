@@ -4,11 +4,11 @@ Relatorio da Atividade 4
   
   R1. Login
   
-  R2. Sistema de email.
+  R2. Enviar email.
   
 ### 2) Descrever o Caso de Uso Expandido para os 2 requisitos 
   
-  R1) **Caso de Uso: Login**
+  #### R1) **Caso de Uso: Login**
   
   **Descrição geral:**<br>
   O caso de uso inicia quando o ususario deseja acessar sua pagina
@@ -39,7 +39,7 @@ Relatorio da Atividade 4
     3.2.1. Senha incorreta.  a senha não corresponde ao email fornecido.<br>
       3.2.2. Sistema recarrega a pagina de login e retorna mensagem informando que a senha está incorreta.<br>
   
-  R2) **Caso de Uso:Sistema de email.**
+  #### R2) **Caso de Uso:Enviar de email.**
   
   **Descrição geral:**<br>
   Um sistema que permite compor, enviar e receber mensagens online de forma assíncrona.
@@ -51,7 +51,7 @@ Relatorio da Atividade 4
   Usuario logado no sistema.
   
   **Garantia de sucesso(pós-condiçãões):**<br>
-  Mensagem enviada ou recebida corretamente para o endereço de email do destinatario, quando este for fornecido e for valido.
+  Mensagem enviada corretamente para o endereço de email do destinatario, quando este for fornecido e for valido.
   
   **Requisitos especias:**<br>
   Segurança e privacidade.
@@ -71,5 +71,16 @@ Relatorio da Atividade 4
     1.1.2.1 Sistema retorna uma mesma informando que a mensagem não foi enviada e o endereço do destinatario não existe.<br>
   
 ### 3) Descrever User Storie para os 2 requisitos
+
+#### User Stories: Login
+
+Como um usuario do sistema, eu quero usar meu email e senha, para que eu posso ter acesso a minha conta 
+
+#### User Stories: Enviar Email
+
+Como o usuario de email, eu quero enviar mensagem, para que eu posso me comunicar com outras pessoas.
+
 ### 4) Fazer o protótipo da tela para cada um dos requisitos
+
+https://www.figma.com/file/09Wl38jz7WNcxnA7Lw8taK/At4ProtoRequisitos?node-id=0%3A1
   
